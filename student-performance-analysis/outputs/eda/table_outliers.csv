@@ -1,0 +1,15 @@
+feature,lower_fence,upper_fence,iqr_outliers,iqr_pct,z_gt_3
+Curricular units 2nd sem (grade),6.875,17.208,877,19.824,0
+Curricular units 1st sem (grade),7.4,17.0,726,16.41,0
+Curricular units 1st sem (credited),0.0,0.0,577,13.042,149
+Curricular units 2nd sem (credited),0.0,0.0,530,11.98,110
+Age at enrollment,10.0,34.0,441,9.968,101
+Curricular units 1st sem (enrolled),2.0,10.0,424,9.584,106
+Curricular units 2nd sem (enrolled),2.0,10.0,369,8.341,82
+Curricular units 1st sem (without evaluations),0.0,0.0,294,6.646,62
+Curricular units 1st sem (approved),-1.5,10.5,180,4.069,61
+Previous qualification (grade),102.5,162.5,179,4.046,21
+Curricular units 1st sem (evaluations),0.0,16.0,158,3.571,60
+Curricular units 2nd sem (evaluations),0.0,16.0,109,2.464,43
+Admission grade,92.55,160.15,86,1.944,22
+Curricular units 2nd sem (approved),-4.0,12.0,44,0.995,23

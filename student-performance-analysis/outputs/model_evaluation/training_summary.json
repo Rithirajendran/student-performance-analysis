@@ -1,0 +1,37 @@
+{
+  "best_config": {
+    "hidden": [
+      128,
+      64,
+      32
+    ],
+    "dropout": 0.2,
+    "lr": 0.001
+  },
+  "batch_size": 64,
+  "max_epochs": 100,
+  "early_stopping_patience": 10,
+  "epochs_run": 23,
+  "val_macro_f1": 0.6993550150608696,
+  "sizes": {
+    "train": 3096,
+    "val": 664,
+    "test": 664,
+    "n_input_features": 98,
+    "n_raw_features": 36
+  },
+  "baselines_val": {
+    "Logistic regression": {
+      "val_macro_f1": 0.6792587985332341
+    },
+    "Random forest": {
+      "val_macro_f1": 0.6860281184492688
+    }
+  },
+  "class_weights": {
+    "Dropout": 1.0382293762575452,
+    "Enrolled": 1.856115107913669,
+    "Graduate": 0.6675291073738681
+  },
+  "n_params": 24003
+}

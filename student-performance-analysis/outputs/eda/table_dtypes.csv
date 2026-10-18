@@ -1,0 +1,38 @@
+,dtype,n_unique,missing
+Marital status,int64,6,0
+Application mode,int64,18,0
+Application order,int64,8,0
+Course,int64,17,0
+Daytime/evening attendance,int64,2,0
+Previous qualification,int64,17,0
+Previous qualification (grade),float64,101,0
+Nacionality,int64,21,0
+Mother's qualification,int64,29,0
+Father's qualification,int64,34,0
+Mother's occupation,int64,32,0
+Father's occupation,int64,46,0
+Admission grade,float64,620,0
+Displaced,int64,2,0
+Educational special needs,int64,2,0
+Debtor,int64,2,0
+Tuition fees up to date,int64,2,0
+Gender,int64,2,0
+Scholarship holder,int64,2,0
+Age at enrollment,int64,46,0
+International,int64,2,0
+Curricular units 1st sem (credited),int64,21,0
+Curricular units 1st sem (enrolled),int64,23,0
+Curricular units 1st sem (evaluations),int64,35,0
+Curricular units 1st sem (approved),int64,23,0
+Curricular units 1st sem (grade),float64,805,0
+Curricular units 1st sem (without evaluations),int64,11,0
+Curricular units 2nd sem (credited),int64,19,0
+Curricular units 2nd sem (enrolled),int64,22,0
+Curricular units 2nd sem (evaluations),int64,30,0
+Curricular units 2nd sem (approved),int64,20,0
+Curricular units 2nd sem (grade),float64,786,0
+Curricular units 2nd sem (without evaluations),int64,10,0
+Unemployment rate,float64,10,0
+Inflation rate,float64,9,0
+GDP,float64,10,0
+Target,str,3,0

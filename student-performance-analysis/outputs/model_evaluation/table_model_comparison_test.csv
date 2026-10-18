@@ -1,0 +1,4 @@
+,accuracy,macro_precision,macro_recall,macro_f1,weighted_f1,roc_auc_ovr_macro
+MLP (proposed),0.756,0.7185,0.7229,0.7146,0.7662,0.8949
+Logistic regression,0.7666,0.7351,0.7455,0.7317,0.7777,0.9021
+Random forest,0.8027,0.7528,0.7448,0.7481,0.8016,0.907

@@ -1,0 +1,155 @@
+{
+  "mlp_test": {
+    "accuracy": 0.7560240963855421,
+    "macro_precision": 0.7185066161980519,
+    "macro_recall": 0.7229475012751241,
+    "macro_f1": 0.7146016679788879,
+    "weighted_f1": 0.7662176819428883,
+    "roc_auc_ovr_macro": 0.8948740081165277
+  },
+  "mlp_val": {
+    "accuracy": 0.7349397590361446,
+    "macro_precision": 0.7107097099037097,
+    "macro_recall": 0.7128192020062735,
+    "macro_f1": 0.6993550150608696,
+    "weighted_f1": 0.7466443089760304,
+    "roc_auc_ovr_macro": 0.8690436071646696
+  },
+  "per_class_report": {
+    "Dropout": {
+      "precision": 0.8440860215053764,
+      "recall": 0.7336448598130841,
+      "f1-score": 0.785,
+      "support": 214.0
+    },
+    "Enrolled": {
+      "precision": 0.44242424242424244,
+      "recall": 0.6134453781512605,
+      "f1-score": 0.5140845070422535,
+      "support": 119.0
+    },
+    "Graduate": {
+      "precision": 0.8690095846645367,
+      "recall": 0.8217522658610272,
+      "f1-score": 0.84472049689441,
+      "support": 331.0
+    },
+    "accuracy": 0.7560240963855421,
+    "macro avg": {
+      "precision": 0.7185066161980519,
+      "recall": 0.7229475012751241,
+      "f1-score": 0.7146016679788879,
+      "support": 664.0
+    },
+    "weighted avg": {
+      "precision": 0.7845257017689716,
+      "recall": 0.7560240963855421,
+      "f1-score": 0.7662176819428883,
+      "support": 664.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      157,
+      43,
+      14
+    ],
+    [
+      19,
+      73,
+      27
+    ],
+    [
+      10,
+      49,
+      272
+    ]
+  ],
+  "comparison_test": {
+    "MLP (proposed)": {
+      "accuracy": 0.7560240963855421,
+      "macro_precision": 0.7185066161980519,
+      "macro_recall": 0.7229475012751241,
+      "macro_f1": 0.7146016679788879,
+      "weighted_f1": 0.7662176819428883,
+      "roc_auc_ovr_macro": 0.8948740081165277
+    },
+    "Logistic regression": {
+      "accuracy": 0.766566265060241,
+      "macro_precision": 0.7350747907031204,
+      "macro_recall": 0.7454505816218121,
+      "macro_f1": 0.7317150394596581,
+      "weighted_f1": 0.7776551462629426,
+      "roc_auc_ovr_macro": 0.9021392629462607
+    },
+    "Random forest": {
+      "accuracy": 0.802710843373494,
+      "macro_precision": 0.7528289252663817,
+      "macro_recall": 0.7447687096410126,
+      "macro_f1": 0.7480699596911936,
+      "weighted_f1": 0.80164711932378,
+      "roc_auc_ovr_macro": 0.9070193691865515
+    }
+  },
+  "best_epoch": 13,
+  "epochs_run": 23,
+  "roc_auc_per_class": {
+    "Dropout": 0.9244236760124611,
+    "Enrolled": 0.8215557782746126,
+    "Graduate": 0.9386425700625095
+  },
+  "mean_conf_correct": 0.8163963556289673,
+  "mean_conf_wrong": 0.6380607485771179,
+  "top_importance": [
+    {
+      "feature": "Curricular units 2nd sem (approved)",
+      "mean_drop": 0.1824,
+      "std": 0.0096
+    },
+    {
+      "feature": "Curricular units 1st sem (approved)",
+      "mean_drop": 0.1177,
+      "std": 0.0115
+    },
+    {
+      "feature": "Curricular units 2nd sem (grade)",
+      "mean_drop": 0.033,
+      "std": 0.0066
+    },
+    {
+      "feature": "Tuition fees up to date",
+      "mean_drop": 0.0306,
+      "std": 0.0102
+    },
+    {
+      "feature": "Age at enrollment",
+      "mean_drop": 0.0171,
+      "std": 0.0061
+    },
+    {
+      "feature": "Curricular units 2nd sem (evaluations)",
+      "mean_drop": 0.0153,
+      "std": 0.0086
+    },
+    {
+      "feature": "Curricular units 1st sem (evaluations)",
+      "mean_drop": 0.0138,
+      "std": 0.0096
+    },
+    {
+      "feature": "Curricular units 2nd sem (credited)",
+      "mean_drop": 0.0114,
+      "std": 0.0043
+    },
+    {
+      "feature": "Father's occupation",
+      "mean_drop": 0.0106,
+      "std": 0.0081
+    },
+    {
+      "feature": "Curricular units 2nd sem (enrolled)",
+      "mean_drop": 0.01,
+      "std": 0.0048
+    }
+  ]
+}

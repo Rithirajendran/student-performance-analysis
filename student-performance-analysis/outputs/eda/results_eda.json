@@ -1,0 +1,320 @@
+{
+  "shape": [
+    4424,
+    37
+  ],
+  "clean_report": {
+    "rows_before": 4424,
+    "missing_cells": 0,
+    "duplicate_rows": 0,
+    "rows_after": 4424
+  },
+  "class_counts": {
+    "Graduate": 2209,
+    "Dropout": 1421,
+    "Enrolled": 794
+  },
+  "class_pct": {
+    "Graduate": 49.93,
+    "Dropout": 32.12,
+    "Enrolled": 17.95
+  },
+  "n_numeric": 19,
+  "n_binary": 8,
+  "n_nominal": 9,
+  "dtypes": {
+    "int64": 29,
+    "float64": 7,
+    "str": 1
+  },
+  "outliers_top": [
+    {
+      "feature": "Curricular units 2nd sem (grade)",
+      "lower_fence": 6.87,
+      "upper_fence": 17.21,
+      "iqr_outliers": 877,
+      "iqr_pct": 19.82,
+      "z_gt_3": 0
+    },
+    {
+      "feature": "Curricular units 1st sem (grade)",
+      "lower_fence": 7.4,
+      "upper_fence": 17.0,
+      "iqr_outliers": 726,
+      "iqr_pct": 16.41,
+      "z_gt_3": 0
+    },
+    {
+      "feature": "Curricular units 1st sem (credited)",
+      "lower_fence": 0.0,
+      "upper_fence": 0.0,
+      "iqr_outliers": 577,
+      "iqr_pct": 13.04,
+      "z_gt_3": 149
+    },
+    {
+      "feature": "Curricular units 2nd sem (credited)",
+      "lower_fence": 0.0,
+      "upper_fence": 0.0,
+      "iqr_outliers": 530,
+      "iqr_pct": 11.98,
+      "z_gt_3": 110
+    },
+    {
+      "feature": "Age at enrollment",
+      "lower_fence": 10.0,
+      "upper_fence": 34.0,
+      "iqr_outliers": 441,
+      "iqr_pct": 9.97,
+      "z_gt_3": 101
+    },
+    {
+      "feature": "Curricular units 1st sem (enrolled)",
+      "lower_fence": 2.0,
+      "upper_fence": 10.0,
+      "iqr_outliers": 424,
+      "iqr_pct": 9.58,
+      "z_gt_3": 106
+    }
+  ],
+  "bivariate_top": [
+    {
+      "feature": "Tuition fees up to date",
+      "type": "binary",
+      "test": "Chi-square",
+      "statistic": 823.5527,
+      "p_value": 0.0,
+      "effect_size": 0.4315
+    },
+    {
+      "feature": "Curricular units 2nd sem (approved)",
+      "type": "numeric",
+      "test": "Kruskal-Wallis",
+      "statistic": 1892.2765,
+      "p_value": 0.0,
+      "effect_size": 0.4276
+    },
+    {
+      "feature": "Curricular units 1st sem (approved)",
+      "type": "numeric",
+      "test": "Kruskal-Wallis",
+      "statistic": 1561.7395,
+      "p_value": 0.0,
+      "effect_size": 0.3528
+    },
+    {
+      "feature": "Curricular units 2nd sem (grade)",
+      "type": "numeric",
+      "test": "Kruskal-Wallis",
+      "statistic": 1390.7313,
+      "p_value": 0.0,
+      "effect_size": 0.3141
+    },
+    {
+      "feature": "Scholarship holder",
+      "type": "binary",
+      "test": "Chi-square",
+      "statistic": 409.9431,
+      "p_value": 0.0,
+      "effect_size": 0.3044
+    },
+    {
+      "feature": "Course",
+      "type": "nominal",
+      "test": "Chi-square",
+      "statistic": 558.2845,
+      "p_value": 0.0,
+      "effect_size": 0.2512
+    },
+    {
+      "feature": "Curricular units 1st sem (grade)",
+      "type": "numeric",
+      "test": "Kruskal-Wallis",
+      "statistic": 1094.1865,
+      "p_value": 0.0,
+      "effect_size": 0.247
+    },
+    {
+      "feature": "Debtor",
+      "type": "binary",
+      "test": "Chi-square",
+      "statistic": 259.3332,
+      "p_value": 0.0,
+      "effect_size": 0.2421
+    },
+    {
+      "feature": "Gender",
+      "type": "binary",
+      "test": "Chi-square",
+      "statistic": 233.2664,
+      "p_value": 0.0,
+      "effect_size": 0.2296
+    },
+    {
+      "feature": "Application mode",
+      "type": "nominal",
+      "test": "Chi-square",
+      "statistic": 466.5137,
+      "p_value": 0.0,
+      "effect_size": 0.2296
+    },
+    {
+      "feature": "Mother's occupation",
+      "type": "nominal",
+      "test": "Chi-square",
+      "statistic": 291.9217,
+      "p_value": 0.0,
+      "effect_size": 0.1816
+    },
+    {
+      "feature": "Father's occupation",
+      "type": "nominal",
+      "test": "Chi-square",
+      "statistic": 264.4998,
+      "p_value": 0.0,
+      "effect_size": 0.1729
+    }
+  ],
+  "vif_top": {
+    "Curricular units 1st sem (enrolled)": 23.49,
+    "Curricular units 2nd sem (enrolled)": 16.47,
+    "Curricular units 1st sem (credited)": 15.57,
+    "Curricular units 1st sem (approved)": 12.64,
+    "Curricular units 2nd sem (credited)": 12.43,
+    "Curricular units 2nd sem (approved)": 10.15
+  },
+  "pca_var_ratio_first5": [
+    0.3249,
+    0.1211,
+    0.0869,
+    0.0813,
+    0.0693
+  ],
+  "distribution_fits": {
+    "Admission grade": {
+      "mean": 126.97811934900544,
+      "std": 14.480363972184861,
+      "skew": 0.5305998610691228,
+      "excess_kurtosis": 0.662724599428703,
+      "dagostino_p": 4.736758925992231e-51,
+      "ks_stat": 0.06585397552273287
+    },
+    "Previous qualification (grade)": {
+      "mean": 132.6133137432188,
+      "std": 13.186841057819926,
+      "skew": 0.3128674880611534,
+      "excess_kurtosis": 0.9682577180691649,
+      "dagostino_p": 9.356069368322488e-34,
+      "ks_stat": 0.09084017253835841
+    },
+    "Age at enrollment": {
+      "skew": 2.0549883694238757,
+      "ks_normal": 0.2667735211178678,
+      "ks_lognormal": 0.24177319191620977
+    },
+    "dropout_proportion": 0.3212025316455696,
+    "dropout_wilson_ci": [
+      0.30760332628710846,
+      0.3351119753530392
+    ],
+    "Curricular units 1st sem (approved)": {
+      "mean": 4.706600361663653,
+      "variance": 9.574308674980651,
+      "dispersion_index": 2.0342302169875324,
+      "zero_share": 0.16229656419529837
+    },
+    "Curricular units 2nd sem (approved)": {
+      "mean": 4.435804701627487,
+      "variance": 9.088801387126884,
+      "dispersion_index": 2.048963378345359,
+      "zero_share": 0.19665461121157324
+    },
+    "Curricular units 1st sem (without evaluations)": {
+      "mean": 0.13765822784810128,
+      "variance": 0.47731542827051926,
+      "dispersion_index": 3.4673948352525072,
+      "zero_share": 0.9335443037974683
+    }
+  },
+  "dropout_rate_by_binary": {
+    "Tuition fees up to date": {
+      "0": 86.55,
+      "1": 24.74
+    },
+    "Debtor": {
+      "0": 28.28,
+      "1": 62.03
+    },
+    "Scholarship holder": {
+      "0": 38.71,
+      "1": 12.19
+    },
+    "Gender": {
+      "0": 25.1,
+      "1": 45.05
+    },
+    "Displaced": {
+      "0": 37.64,
+      "1": 27.58
+    }
+  },
+  "top_corr_pairs": [
+    [
+      "Curricular units 1st sem (enrolled)",
+      "Curricular units 2nd sem (enrolled)",
+      0.962
+    ],
+    [
+      "Curricular units 1st sem (credited)",
+      "Curricular units 2nd sem (credited)",
+      0.914
+    ],
+    [
+      "Curricular units 1st sem (approved)",
+      "Curricular units 2nd sem (approved)",
+      0.892
+    ],
+    [
+      "Curricular units 1st sem (grade)",
+      "Curricular units 2nd sem (grade)",
+      0.762
+    ],
+    [
+      "Curricular units 1st sem (enrolled)",
+      "Curricular units 1st sem (approved)",
+      0.707
+    ],
+    [
+      "Curricular units 1st sem (approved)",
+      "Curricular units 2nd sem (enrolled)",
+      0.699
+    ]
+  ],
+  "grade_means_by_target": {
+    "Curricular units 1st sem (grade)": {
+      "Dropout": 7.26,
+      "Enrolled": 11.13,
+      "Graduate": 12.64
+    },
+    "Curricular units 2nd sem (grade)": {
+      "Dropout": 5.9,
+      "Enrolled": 11.12,
+      "Graduate": 12.7
+    },
+    "Curricular units 2nd sem (approved)": {
+      "Dropout": 1.94,
+      "Enrolled": 4.06,
+      "Graduate": 6.18
+    },
+    "Age at enrollment": {
+      "Dropout": 26.07,
+      "Enrolled": 22.37,
+      "Graduate": 21.78
+    },
+    "Admission grade": {
+      "Dropout": 124.96,
+      "Enrolled": 125.53,
+      "Graduate": 128.79
+    }
+  }
+}
